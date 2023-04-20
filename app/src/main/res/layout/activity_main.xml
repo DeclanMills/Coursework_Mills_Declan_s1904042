@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- //Name:Declan Mills
+    //Student Number: s1904042 -->
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            tools:ignore="MissingConstraints">
+           <!-- <TextView android:id="@+id/salutation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Welcome to Mobile Platform Development"/>
+            <Button android:id="@+id/startButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Press to get data"/>
+            <TextView android:id="@+id/acknowledgement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Contains British Geological Survey materials ©NERC 2019"/>
+            <TextView android:id="@+id/rawDataDisplay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Raw Data is Displayed here"/>-->
+
+            <Button
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@android:id/list"
+                android:text="Search"
+                android:layout_centerHorizontal="true"
+                />
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/mag_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_below="@android:id/list"
+                />
+            <TextView
+                android:id="@+id/earthquake_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/earthquake_magnitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+
+</LinearLayout>

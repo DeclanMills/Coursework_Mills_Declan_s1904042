@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- //Name:Declan Mills
+    //Student Number: s1904042 -->
+    <TextView
+        android:id="@+id/north"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closest North Earthquake: " />
+
+    <TextView
+        android:id="@+id/northE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_toEndOf="@+id/north"/>
+
+    <Button
+        android:id="@+id/mapN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/east"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closest East Earthquake: "
+        android:layout_marginTop="100dp"/>
+    <TextView
+        android:id="@+id/eastE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/east"/>
+    <Button
+        android:id="@+id/mapE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+
+        android:layout_marginTop="120dp"
+        />
+
+    <TextView
+        android:id="@+id/south"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closest South Earthquake:  "
+        android:layout_marginTop="200dp"/>
+    <TextView
+        android:id="@+id/southE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="200dp"
+        android:layout_toEndOf="@+id/south"/>
+    <Button
+        android:id="@+id/mapS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+
+        android:layout_marginTop="220dp"
+        />
+
+    <TextView
+        android:id="@+id/west"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closest West Earthquake: "
+        android:layout_marginTop="300dp"/>
+    <TextView
+        android:id="@+id/westE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="300dp"
+        android:layout_toEndOf="@+id/west"/>
+    <Button
+        android:id="@+id/mapW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+        android:layout_marginTop="320dp"
+        />
+
+    <TextView
+        android:id="@+id/mag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Mag: "
+        android:layout_marginTop="400dp"/>
+    <TextView
+        android:id="@+id/magE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="400dp"
+        android:layout_toEndOf="@+id/mag"/>
+    <Button
+        android:id="@+id/mapMag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+        android:layout_marginTop="420dp"
+        />
+
+
+    <TextView
+        android:id="@+id/minDepth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Min Depth Quake Earthquake: "
+        android:layout_marginTop="500dp"/>
+    <TextView
+        android:id="@+id/minDepthE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="500dp"
+        android:layout_toEndOf="@+id/minDepth"/>
+    <Button
+        android:id="@+id/mapMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+        android:layout_marginTop="520dp"
+        />
+
+    <TextView
+        android:id="@+id/maxDepth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Depth Quake: "
+        android:layout_marginTop="600dp"/>
+    <TextView
+        android:id="@+id/maxDepthE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="asd"
+        android:layout_marginTop="600dp"
+        android:layout_toEndOf="@+id/maxDepth"/>
+    <Button
+        android:id="@+id/mapMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view on map"
+        android:layout_marginTop="620dp"
+        />
+</RelativeLayout>

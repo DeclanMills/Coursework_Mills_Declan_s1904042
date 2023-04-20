@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- //Name:Declan Mills
+    //Student Number: s1904042 -->
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Location: "
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/listdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@+id/textName"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: "
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/timedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/textTime"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        />
+
+    <TextView
+        android:id="@+id/dateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_toEndOf="@+id/textDate"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textMag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitude: "
+        android:textSize="30dp"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/magdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toEndOf="@+id/textMag"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Region: "
+        android:textSize="30dp"
+        android:layout_marginTop="250dp"
+        />
+
+    <TextView
+        android:id="@+id/regiondata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_toEndOf="@+id/textReg"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textLon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lon: "
+        android:textSize="30dp"
+        android:layout_marginTop="300dp"
+        />
+
+    <TextView
+        android:id="@+id/longdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_toEndOf="@+id/textLon"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textLat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat: "
+        android:textSize="30dp"
+        android:layout_marginTop="350dp"
+        />
+
+    <TextView
+        android:id="@+id/latdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_toEndOf="@+id/textLat"
+        android:text="asd"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/mapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="View on Map"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:text="back"
+        />
+
+
+
+
+</RelativeLayout>
